@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M'rah Deteach | Plombier & Électricien</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #cc0000;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 10px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      background-color: rgba(25,25,25,0.3);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #003366;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .project img {
+        height: 150px;
+      }
+    }
+    .profil-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
+}
+  </style>
+</head>
+<body style=" background: linear-gradient(140deg,white,gray)">
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" alt="Logo plomberie électricité" class="logo">
+    <h1>M'rah Deteach</h1>
+    <p>Plombier & Électricien à Madagascar</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>À propos</h2> <img src="profil.jpg" alt="Photo de profil" class="profil-img" align="right">
+      <p>Je suis Rakotoarisoa Martial, connu sous le nom de M'rah Deteach. Avec plusieurs années d'expérience dans la plomberie et l'électricité, je vous propose des services fiables, rapides et professionnels dans tout Madagascar.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Mes Réalisations</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="https://images.unsplash.com/photo-1626331401134-2daba27fda7b" alt="Projet électricité">
+          <h3>Installation électrique</h3>
+          <p>Travaux d’installation électrique pour maisons et bâtiments professionnels.</p>
+        </div>
+        <div class="project">
+          <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee" alt="Projet plomberie">
+          <h3>Travaux de plomberie</h3>
+          <p>Réparation et installation de plomberie moderne et efficace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Appelez directement au <strong>+ 261 38 54 014 43</strong> ou envoyer des messages privé au facebook : <strong>Matf M'rah</strong>.</p>
+            <p id="msg-status" style="margin-top: 10px;"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 M'rah Deteach - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
